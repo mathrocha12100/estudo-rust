@@ -1,0 +1,13 @@
+pub mod input_output_dados;
+pub mod rs_while;
+pub mod factorial_rs;
+pub mod rs_for;
+pub mod tuple_rs;
+pub mod enum_rs;
+pub mod const_rs;
+pub mod shadowing;
+pub mod references_rs;
+pub mod structs_rs;
+pub mod string_rs;
+pub mod arrays_rs;
+pub mod keyword;
