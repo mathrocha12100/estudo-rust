@@ -14,10 +14,12 @@ enum Aulas {
     AulaString,
     ArraysRs,
     Keyword,
+    VectorRs,
+    HashMapo
 }
 
 fn main() {
-    let aula: Aulas = Aulas::Keyword;
+    let aula: Aulas = Aulas::HashMapo;
 
     match aula {
         Aulas::AulaStructs => aulas::structs_rs::structs_rs(),
@@ -33,5 +35,8 @@ fn main() {
         Aulas::AulaString => aulas::string_rs::string_rs(),
         Aulas::ArraysRs => aulas::arrays_rs::arrays_rs(),
         Aulas::Keyword => aulas::keyword::keyword(),
+        Aulas::VectorRs => aulas::vector_rs::vector_rs(),
+        Aulas::VectorRs => aulas::vector_rs::vector_rs(),
+        Aulas::HashMapo => aulas::hash_map::hash_map(),
     }
 }   
