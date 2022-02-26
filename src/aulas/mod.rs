@@ -13,3 +13,5 @@ pub mod arrays_rs;
 pub mod keyword;
 pub mod vector_rs;
 pub mod hash_map;
+pub mod traits;
+pub mod pattern_matching;

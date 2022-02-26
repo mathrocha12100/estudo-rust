@@ -1,4 +1,5 @@
 mod aulas;
+mod file;
 
 enum Aulas {
     AulaConst,
@@ -15,11 +16,14 @@ enum Aulas {
     ArraysRs,
     Keyword,
     VectorRs,
-    HashMapo
+    HashMapo,
+    File,
+    Traits,
+    PatternMatching
 }
 
 fn main() {
-    let aula: Aulas = Aulas::HashMapo;
+    let aula: Aulas = Aulas::Traits;
 
     match aula {
         Aulas::AulaStructs => aulas::structs_rs::structs_rs(),
@@ -38,5 +42,8 @@ fn main() {
         Aulas::VectorRs => aulas::vector_rs::vector_rs(),
         Aulas::VectorRs => aulas::vector_rs::vector_rs(),
         Aulas::HashMapo => aulas::hash_map::hash_map(),
+        Aulas::File => file::file_rs::file_rs(),
+        Aulas::Traits => aulas::traits::traits(),
+        Aulas::PatternMatching => aulas::pattern_matching::pattern_matching()
     }
 }   
